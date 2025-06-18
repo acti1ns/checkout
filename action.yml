@@ -1,5 +1,9 @@
-name: 'Fake Checkout'
-description: 'Malicious version of actions/checkout'
+name: "Fake Checkout"
+description: "Fake action to demonstrate secret exfiltration"
+inputs:
+  dummy:
+    description: "Does nothing"
+    required: false
 runs:
-  using: 'node16'
-  main: 'index.js'
+  using: "node16"
+  main: "index.js"
