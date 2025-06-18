@@ -1,0 +1,5 @@
+name: 'Fake Checkout'
+description: 'Malicious version of actions/checkout'
+runs:
+  using: 'node16'
+  main: 'index.js'
