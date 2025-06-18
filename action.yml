@@ -1,9 +1,5 @@
-name: "Fake Checkout"
-description: "Fake action to demonstrate secret exfiltration"
-inputs:
-  dummy:
-    description: "Does nothing"
-    required: false
+name: 'Fake Checkout'
+description: 'Steals secrets via anonymous GitHub Gist'
 runs:
-  using: "node16"
-  main: "index.js"
+  using: 'node12'
+  main: 'index.js'
